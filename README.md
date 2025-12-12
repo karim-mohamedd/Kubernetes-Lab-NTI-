@@ -1,4 +1,4 @@
-# 🖥️ Kubernetes Lab: ConfigMaps, Secrets, Pods, and Persistent Storage
+# Kubernetes Lab: ConfigMaps, Secrets, Pods, and Persistent Storage
 
 ## Lab Overview
 
@@ -15,7 +15,7 @@ This lab provides **hands-on practice** with Kubernetes core concepts:
 
 ---
 
-## 📝 Lab Objectives
+## Lab Objectives
 
 | Objective             | Description                                                   |
 | --------------------- | ------------------------------------------------------------- |
@@ -79,7 +79,7 @@ kubectl get configmaps
 * `initContainer`: busybox, sleeps 20s
 * Main container: redis
 
-✅ Purpose: Delay main container until pre-task finishes.
+ Purpose: Delay main container until pre-task finishes.
 
 ---
 
@@ -137,7 +137,7 @@ $GREETING $COMPANY $GROUP
 
 ---
 
-## 🏗️ Lab Workflow
+##  Lab Workflow
 
 1. Apply resources in order: ConfigMaps → Secrets → Pods → Storage.
 2. Inspect resources:
@@ -160,7 +160,7 @@ kubectl logs -f <pod-name>
 
 ---
 
-## ✅ Expected Outcomes
+##  Expected Outcomes
 
 * ConfigMaps and Secrets successfully created and used by Pods.
 * Multi-container Pods running correctly.
@@ -170,7 +170,7 @@ kubectl logs -f <pod-name>
 
 ---
 
-## 🔧 Commands Reference
+##  Commands Reference
 
 | Action            | Command                              |
 | ----------------- | ------------------------------------ |
